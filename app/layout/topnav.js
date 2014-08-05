@@ -4,7 +4,7 @@
     var controllerId = 'topnav';
     angular.module('app').controller(controllerId,
         ['$scope', topnav]);
-
+    
     function topnav($scope) {
         $('.mainbar').css("margin-left", "0px");
 

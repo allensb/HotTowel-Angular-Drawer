@@ -1130,6 +1130,7 @@ form {
     .sidebar {
         float: none;
         width: 100%;
+        position: absolute;
     }
 
         .sidebar .sidebar-dropdown {
@@ -1137,7 +1138,7 @@ form {
         }
 
         .sidebar .sidebar-inner {
-            display: none;
+            width: 220px;
         }
 
         .sidebar .sidebar-widget {
@@ -1146,6 +1147,7 @@ form {
 
     .mainbar {
         margin: 0;
+        margin-left: 230px;
         float: none;
     }
 

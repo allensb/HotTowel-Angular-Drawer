@@ -461,10 +461,6 @@ a {
 }
 
 @media (max-width: 767px) {
-    .sidebar-filler {
-        display: none;
-    }
-
     .nav-collapse {
         clear: both;
     }
@@ -474,7 +470,7 @@ a {
         }
 
     .navbar .btn-navbar {
-        display: block;
+        display: none;
     }
 
     .nav-collapse,
@@ -517,7 +513,7 @@ a {
     }
 
     .btn-group > .btn {
-        display: block;
+        display: none;
         width: 7em;
     }
 
